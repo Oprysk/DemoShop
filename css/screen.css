@@ -1,0 +1,375 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/css/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+/* line 5, ../../../../Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 11, ../sass/screen.scss */
+html {
+  overflow-x: hidden;
+}
+
+/* line 12, ../sass/screen.scss */
+body {
+  background: #fff;
+  font: 14px Arial, sans-serif;
+  color: #61778e;
+}
+
+/* line 18, ../sass/screen.scss */
+h1 {
+  font-size: 50px;
+  font-weight: bold;
+  color: #272b2e;
+}
+/* line 22, ../sass/screen.scss */
+h1 span {
+  color: #61778e;
+  font-weight: normal;
+}
+
+/* line 25, ../sass/screen.scss */
+.logo {
+  padding-top: 45px;
+  padding-left: 30px;
+}
+
+/* line 30, ../sass/screen.scss */
+.searching {
+  text-align: center;
+  padding-top: 60px;
+}
+/* line 33, ../sass/screen.scss */
+.searching .ui.small.input {
+  width: 300px;
+}
+/* line 34, ../sass/screen.scss */
+.searching .ui.input input {
+  background: #f8f8fa;
+}
+
+/* line 38, ../sass/screen.scss */
+.options a {
+  color: #61778e;
+}
+/* line 39, ../sass/screen.scss */
+.options .ui.inline.dropdown > .text {
+  font-weight: 500;
+}
+/* line 40, ../sass/screen.scss */
+.options .ui.dropdown .menu > .item > .flag, .options .ui.dropdown .menu > .item > .icon, .options .ui.dropdown .menu > .item > .image, .options .ui.dropdown .menu > .item > .label, .options .ui.dropdown .menu > .item > img, .options .ui.dropdown > .text > .flag, .options .ui.dropdown > .text > .icon, .options .ui.dropdown > .text > .image, .options .ui.dropdown > .text > .label, .options .ui.dropdown > .text > img {
+  margin-right: 0px;
+}
+/* line 42, ../sass/screen.scss */
+.options .column {
+  padding-top: 24px !important;
+}
+/* line 43, ../sass/screen.scss */
+.options .ui.inline.dropdown {
+  margin-right: 5px;
+}
+
+/* line 47, ../sass/screen.scss */
+.account-btn button {
+  height: 35px;
+  margin-right: 10px;
+  border: 1px solid #d3d3d5;
+  border-radius: 5px;
+  background-color: #f8f8fa;
+  min-width: 40px;
+  transition: 0.4s;
+}
+/* line 48, ../sass/screen.scss */
+.account-btn .heart {
+  margin-right: 0px;
+}
+/* line 49, ../sass/screen.scss */
+.account-btn button.basket {
+  width: 120px;
+  text-align: left;
+}
+/* line 49, ../sass/screen.scss */
+.account-btn button.basket span {
+  margin-left: 10px;
+  color: #f35822;
+}
+/* line 50, ../sass/screen.scss */
+.account-btn button.basket i#test {
+  display: inline;
+  color: #61778e;
+}
+/* line 51, ../sass/screen.scss */
+.account-btn button.account {
+  width: 150px;
+}
+/* line 52, ../sass/screen.scss */
+.account-btn button:hover {
+  background-color: #d3d3d5;
+}
+
+/* line 55, ../sass/screen.scss */
+#menu .menu {
+  border-bottom: 1px solid #f35822;
+  padding-bottom: 0px;
+  padding-left: 30px;
+}
+/* line 59, ../sass/screen.scss */
+#menu .menu .ui.link.list .active.item, #menu .menu .ui.link.list .active.item a, #menu .menu .ui.link.list .item a:active, #menu .menu .ui.link.list .item a:hover, #menu .menu .ui.link.list a.item:active, #menu .menu .ui.link.list a.item:hover {
+  color: #fff;
+  background-color: #f35822;
+  border-top-right-radius: 3px;
+  border-top-left-radius: 3px;
+}
+/* line 64, ../sass/screen.scss */
+#menu .menu .ui.link.list .item, #menu .menu .ui.link.list .item a, #menu .menu .ui.link.list a.item {
+  color: #61778e;
+  height: 30px;
+  padding-left: 5px !important;
+  padding-right: 5px;
+  transition: 0.4s;
+}
+/* line 65, ../sass/screen.scss */
+#menu .menu .active-page {
+  background-color: #404c58;
+  color: #fff !important;
+  border-top-right-radius: 3px;
+  border-top-left-radius: 3px;
+}
+
+/* line 69, ../sass/screen.scss */
+#content {
+  min-height: 500px;
+}
+
+/* line 73, ../sass/screen.scss */
+.ui.modal {
+  margin-top: 0 !important;
+  float: right;
+  height: 100%;
+  width: 30%;
+  position: static;
+}
+
+/* line 80, ../sass/screen.scss */
+.ui.scrolling.modal {
+  margin: 0px auto !important;
+}
+
+/* line 81, ../sass/screen.scss */
+.ui.dimmer {
+  background: rgba(0, 0, 0, 0.8);
+}
+
+/* line 82, ../sass/screen.scss */
+.ui.modal > .header {
+  background-color: #61778e;
+  color: #fff;
+  font-weight: 500;
+  padding: 10px;
+  font-size: 1.2em;
+}
+
+/* line 85, ../sass/screen.scss */
+.ui.modal .content img {
+  height: 80px;
+}
+/* line 86, ../sass/screen.scss */
+.ui.modal .content input[type="number"] {
+  width: 50px;
+  border-radius: 5px;
+  padding: 3px;
+  height: 24px;
+  border: 1px solid #d1d2d2;
+}
+/* line 87, ../sass/screen.scss */
+.ui.modal .content p {
+  font-size: 14px;
+}
+/* line 89, ../sass/screen.scss */
+.ui.modal .remove {
+  text-align: center;
+}
+/* line 89, ../sass/screen.scss */
+.ui.modal .remove a.button {
+  margin-top: 50px;
+  color: #f44336;
+}
+/* line 89, ../sass/screen.scss */
+.ui.modal .remove a.button:hover {
+  color: #ff5722;
+}
+/* line 90, ../sass/screen.scss */
+.ui.modal .actions p {
+  text-align: left;
+  margin-bottom: -25px;
+  color: #61778e;
+}
+/* line 94, ../sass/screen.scss */
+.ui.modal .actions p i {
+  color: #12a5dc;
+}
+
+/* line 98, ../sass/screen.scss */
+#sale-page {
+  margin-left: 50px;
+  margin-right: 50px;
+  min-height: 450px;
+  background-color: #fff;
+  display: none;
+}
+/* line 104, ../sass/screen.scss */
+#sale-page .title {
+  background-color: #404c58;
+  color: #fff;
+  font-weight: 500;
+  padding: 10px;
+  padding-left: 35px;
+  font-size: 1.2em;
+  margin-top: -17px;
+}
+/* line 114, ../sass/screen.scss */
+#sale-page i.remove.icon {
+  float: right;
+}
+/* line 115, ../sass/screen.scss */
+#sale-page i.remove.icon:hover {
+  color: #f35822;
+}
+/* line 117, ../sass/screen.scss */
+#sale-page .menu {
+  padding: 40px 40px;
+}
+/* line 118, ../sass/screen.scss */
+#sale-page .menu .list {
+  border-right: 1px solid #dbd9e4;
+}
+/* line 119, ../sass/screen.scss */
+#sale-page .menu .list .item {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+/* line 121, ../sass/screen.scss */
+#sale-page .menu .ui.list .item a {
+  color: #61778e !important;
+}
+/* line 122, ../sass/screen.scss */
+#sale-page .menu .ui.list .item a:hover {
+  color: #f35822 !important;
+}
+/* line 126, ../sass/screen.scss */
+#sale-page .content img {
+  margin-top: 40px;
+}
+
+/* line 131, ../sass/screen.scss */
+#buy-page .header {
+  padding: 5px 0px 10px 40px;
+  border-bottom: 1px solid #d3d3d5;
+}
+/* line 135, ../sass/screen.scss */
+#buy-page .content {
+  margin: 0px 40px 10px 40px;
+  padding: 20px;
+  border: 1px solid #d3d3d5;
+  border-radius: 5px;
+}
+/* line 140, ../sass/screen.scss */
+#buy-page .content .title {
+  padding-bottom: 10px;
+  border-bottom: 1px solid #d3d3d5;
+  color: #3f4d58;
+  font-weight: bold;
+}
+/* line 146, ../sass/screen.scss */
+#buy-page .content #products {
+  margin: 20px;
+}
+/* line 147, ../sass/screen.scss */
+#buy-page .content #products p {
+  margin-top: 5px;
+}
+/* line 148, ../sass/screen.scss */
+#buy-page .content #products a {
+  margin-top: 5px;
+}
+/* line 149, ../sass/screen.scss */
+#buy-page .content #products img {
+  height: 220px;
+  margin-bottom: 10px;
+  min-width: 200px;
+}
+/* line 151, ../sass/screen.scss */
+#buy-page .content .product {
+  padding: 30px 30px 10px 30px;
+  text-align: center;
+}
+/* line 152, ../sass/screen.scss */
+#buy-page .content .ui.button {
+  font-size: 13px !important;
+  width: 110px !important;
+  padding: 6px !important;
+  margin-top: 5px;
+}

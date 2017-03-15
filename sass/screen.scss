@@ -1,0 +1,157 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/css/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+
+@import "compass/reset";
+
+$fsize: 14px; 
+
+$color: #272b2e;
+html { overflow-x: hidden; }
+body{
+     background: #fff;
+	 font: 14px Arial, sans-serif;
+	 color: #61778e;
+}
+
+h1{
+     font-size: $fsize +36;
+	 font-weight: bold;
+	 color: $color;
+	 span{color: #61778e; font-weight: normal;}
+}
+
+.logo{
+     padding-top: 45px;
+	 padding-left: 30px;
+}
+
+.searching{
+     text-align: center;
+	 padding-top: 60px;
+	 .ui.small.input {width: 300px;}
+     .ui.input input {background: #f8f8fa;}
+}
+
+.options{
+	 a{color: #61778e;}
+	 .ui.inline.dropdown>.text {font-weight: 500;}
+     .ui.dropdown .menu>.item>.flag, .ui.dropdown .menu>.item>.icon, .ui.dropdown .menu>.item>.image, .ui.dropdown .menu>.item>.label, .ui.dropdown .menu>.item>img, .ui.dropdown>.text>.flag, .ui.dropdown>.text>.icon, .ui.dropdown>.text>.image, .ui.dropdown>.text>.label, .ui.dropdown>.text>img {
+	 margin-right: 0px;}
+	 .column{padding-top: 24px !important;}
+	 .ui.inline.dropdown {margin-right: 5px;}
+}
+
+.account-btn{
+     button{    height: 35px; margin-right: 10px; border: 1px solid #d3d3d5; border-radius: 5px; background-color: #f8f8fa; min-width: 40px; transition: 0.4s;}
+     .heart{margin-right: 0px;}
+	 button.basket {width: 120px; text-align: left; span{margin-left: 10px; color: #f35822;}
+	 i#test{display: inline; color: #61778e;}}
+	 button.account{width: 150px;}
+	 button:hover{background-color: #d3d3d5;}
+}
+#menu{
+.menu{
+     border-bottom: 1px solid #f35822;
+	 padding-bottom: 0px;
+	 padding-left: 30px;
+     .ui.link.list .active.item, .ui.link.list .active.item a, .ui.link.list .item a:active, .ui.link.list .item a:hover, .ui.link.list a.item:active, .ui.link.list a.item:hover {
+     color: #fff;
+     background-color: #f35822;
+     border-top-right-radius: 3px;
+     border-top-left-radius: 3px;}
+    .ui.link.list .item, .ui.link.list .item a, .ui.link.list a.item { color: #61778e; height: 30px; padding-left: 5px !important; padding-right: 5px; transition: 0.4s;}
+	.active-page{background-color:#404c58; color: #fff !important; border-top-right-radius: 3px; border-top-left-radius: 3px;}
+}
+}
+
+#content{
+    min-height: 500px
+}
+
+.ui.modal {
+     margin-top: 0 !important;
+	 float: right;
+	 height: 100%;
+     width: 30%;
+     position: static;}
+	 
+.ui.scrolling.modal {margin: 0px auto !important;}
+.ui.dimmer {background: rgba(0,0,0,.8);}
+.ui.modal>.header {background-color: #61778e; color: #fff; font-weight: 500; padding: 10px; font-size: 1.2em;}
+.ui.modal{
+   .content{
+      img { height: 80px;}
+	  input[type="number"] { width: 50px; border-radius: 5px; padding: 3px; height: 24px; border: 1px solid #d1d2d2;}
+	  p {font-size: 14px;}
+	  }
+   .remove{text-align: center; a.button{margin-top: 50px; color: #f44336;} a.button:hover{color:#ff5722;}}
+   .actions{p {
+    text-align: left;
+    margin-bottom: -25px;
+    color: #61778e;
+	i{color: #12a5dc;}
+}}
+}
+
+#sale-page{
+  margin-left: 50px;
+  margin-right: 50px;
+  min-height: 450px;
+  background-color: #fff;
+  display: none;
+ .title{
+     background-color: #404c58;
+     color: #fff;
+     font-weight: 500;
+     padding: 10px;
+	 padding-left: 35px;
+     font-size: 1.2em;
+     margin-top: -17px;
+	 }
+	 
+  i.remove.icon {float: right;}
+  i.remove.icon:hover{color:#f35822;}
+	
+  .menu{ padding: 40px 40px;
+  .list{border-right: 1px solid #dbd9e4;
+  .item{ padding-top: 15px; padding-bottom: 15px;}
+	}
+  .ui.list .item a {color:#61778e !important;}
+  .ui.list .item a:hover {color:#f35822 !important;}
+	}
+	
+  .content{
+	 img{ margin-top: 40px;}
+	}
+}	
+
+#buy-page {
+   .header{
+     padding: 5px 0px 10px 40px;
+	 border-bottom: 1px solid #d3d3d5;
+   }
+   .content{
+     margin: 0px 40px 10px 40px;
+	 padding: 20px;
+	 border:  1px solid #d3d3d5;
+	 border-radius: 5px;
+	 .title{
+	   padding-bottom: 10px;
+	   border-bottom: 1px solid #d3d3d5;
+	   color: #3f4d58;
+	   font-weight: bold;
+	 }
+	 #products {margin: 20px;
+	 p{margin-top: 5px;}
+	 a{margin-top: 5px;}
+	 img { height: 220px; margin-bottom: 10px; min-width: 200px;}
+	 }
+	 .product { padding: 30px 30px 10px 30px; text-align: center;}
+	 .ui.button { font-size: 13px !important; width: 110px !important; padding: 6px !important; margin-top: 5px;}
+   }
+}
+	 
+
+
